@@ -99,7 +99,7 @@ const MovieGrid = ({ city, list }: Props) => {
               <img
                 src={block.poster}
                 alt={block.movie}
-                className="aspect-3/4 w-full object-cover"
+                className="skeleton aspect-3/4 w-full object-cover" // shimmers until the poster arrives
               />
 
               <div className="space-y-2 p-3">
